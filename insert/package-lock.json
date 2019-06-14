@@ -1,0 +1,23 @@
+{
+	"name": "fn-atp-node",
+	"version": "0.0.1",
+	"lockfileVersion": 1,
+	"requires": true,
+	"dependencies": {
+		"@fnproject/fdk": {
+			"version": "0.0.13",
+			"resolved": "https://registry.npmjs.org/@fnproject/fdk/-/fdk-0.0.13.tgz",
+			"integrity": "sha512-0Z8VBkKqXkoS8V4nqmNQrwLQzhQmDsRwo5HEaknr8Y977kpMPyVzFiO030UdKiqJsebfxFLyi6LrATqrz/3J1Q=="
+		},
+		"dateformat": {
+			"version": "3.0.3",
+			"resolved": "https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz",
+			"integrity": "sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q=="
+		},
+		"oracledb": {
+			"version": "3.1.2",
+			"resolved": "https://registry.npmjs.org/oracledb/-/oracledb-3.1.2.tgz",
+			"integrity": "sha512-DOBKpUlfvGAX6bcpuPGtPVVfOOUqFue8eLjbnnmkDyBTU+YuH+gXHRy4ftlFzkHBXYkrSGenFJrXy8dDfEVXCg=="
+		}
+	}
+}

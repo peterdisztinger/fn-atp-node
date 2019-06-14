@@ -1,0 +1,12 @@
+{
+	"name": "fn-atp-node",
+	"version": "0.0.1",
+	"description": "Connecting to ATP with Node and Fn",
+	"main": "func.js",
+	"author": "todd.sharp@oracle.com",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@fnproject/fdk": ">=0.0.11",
+		"oracledb": "^3.1.2"
+	}
+}
