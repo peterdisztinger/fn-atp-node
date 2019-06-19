@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: fn-atp-node-json-slow-insert
-version: 0.0.102
+version: 0.0.103
 runtime: docker
 memory: 256
 timeout: 120

@@ -8,8 +8,9 @@ RUN yum -y install oracle-release-el7 oracle-nodejs-release-el7 && \
     rm -rf /var/cache/yum
 
 COPY wallet/* /usr/lib/oracle/19.3/client64/lib/network/admin/
-RUN chmod 777 -R /usr/lib/oracle/19.3/client64/lib/network/admin/
-RUN chown fn:fn /usr/lib/oracle/19.3/client64/lib/network/admin/*
+
+RUN chmod 777 -R /usr/lib/oracle/19.3/client64/lib/network/admin/ && \
+    chown fn:fn /usr/lib/oracle/19.3/client64/lib/network/admin/*
 
 WORKDIR /function
 ADD package.json package-lock.json func.js func.yaml /function/

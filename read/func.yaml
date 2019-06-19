@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: fn-atp-node-json-read
-version: 0.0.94
+version: 0.0.95
 runtime: docker
 memory: 256
 timeout: 120
