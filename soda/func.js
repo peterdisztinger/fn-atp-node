@@ -36,14 +36,14 @@ fdk.handle( async function(input){
         });
     }
     catch(err) {
-        console.log('Error in processing:\n', err);
+        console.error(err);
     }
     finally {
         if (connection) {
             try {
                 await connection.close();
             } catch(err) {
-                console.log('Error in closing connection:\n', err);
+                console.error(err);
             }
         }
     }
