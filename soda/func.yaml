@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: fn-atp-node-json-soda
-version: 0.0.89
+version: 0.0.91
 runtime: docker
 memory: 256
 timeout: 120
