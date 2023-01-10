@@ -1,2 +1,0 @@
-WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="/opt/oracle/instantclient_18_3/network/admin")))
-SSL_SERVER_DN_MATCH=yes
